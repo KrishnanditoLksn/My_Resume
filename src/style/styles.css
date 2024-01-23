@@ -16,6 +16,7 @@ body {
 
 section {
     margin-bottom: 10px;
+    margin-top: 10px;
     border-radius: 25px;
 }
 
@@ -23,6 +24,7 @@ section {
     justify-content: center;
     background-color: aquamarine;
     margin-top: 15px;
+    width: 1500px;
 }
 
 .title_section,
@@ -56,6 +58,7 @@ Objective section
     background-color: rgb(62, 116, 99);
     padding: 20px;
     transition: 1s;
+    box-shadow: 5px 5px 5px 5px #1dd198;
 }
 
 /*
@@ -65,7 +68,7 @@ education section
 .education {
     background-color: burlywood;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(151, 52, 52);
     border-radius: 5px;
     padding: 20px;
 }
@@ -78,7 +81,6 @@ education section
     transition: 1s;
     color: white;
 }
-
 
 /*
 work section
@@ -135,16 +137,15 @@ certfication section
     padding-left: 70px;
     padding-right: 70px;
     font-family: sans-serif;
-    margin-top: 10px;
     margin-bottom: 20px;
     padding-bottom: 40px;
-
 }
 
 .my_certs:hover {
     background-color: rgb(3, 94, 94);
     transition: 1s;
     border-radius: 15px;
+    border: 1px;
 }
 
 a {
@@ -152,4 +153,14 @@ a {
     text-decoration: none;
     color: rgb(33, 196, 145);
     border-radius: 15%;
+}
+
+@media screen and (max-width: 500px) {
+
+
+    .title_section,h1 {
+        width: 100%;
+        padding: 0;
+        font-size: 50px;
+    }
 }
